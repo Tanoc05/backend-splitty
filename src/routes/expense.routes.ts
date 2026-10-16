@@ -29,3 +29,4 @@ router.get('/group/:groupId/settlements', getSettlements);
 router.post('/settlements', validateBody(createSettlementSchema), createSettlement);
 
 export default router;
+

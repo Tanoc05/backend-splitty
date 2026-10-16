@@ -121,3 +121,4 @@ CREATE INDEX IF NOT EXISTS idx_expense_splits_expense_id ON public.expense_split
 CREATE INDEX IF NOT EXISTS idx_settlements_group_id ON public.settlements(group_id);
 CREATE INDEX IF NOT EXISTS idx_info_items_group_id ON public.info_items(group_id);
 CREATE INDEX IF NOT EXISTS idx_info_items_user_id ON public.info_items(user_id);
+

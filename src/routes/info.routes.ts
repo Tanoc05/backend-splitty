@@ -22,3 +22,4 @@ router.put('/:id', validateBody(updateInfoItemSchema), updateInfoItem);
 router.delete('/:id', deleteInfoItem);
 
 export default router;
+

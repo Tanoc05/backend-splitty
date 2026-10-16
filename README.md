@@ -195,3 +195,4 @@ Permette a ciascun utente di salvare e condividere info pratiche: note libere, d
   - Categorie supportate: `'note'`, `'iban'`, `'wifi'`, `'link'`, `'todo'`, `'custom'`.
 - **`PUT /api/info/:id`**: Modifica una scheda informativa (solo l'autore).
 - **`DELETE /api/info/:id`**: Elimina una scheda informativa (solo l'autore).
+

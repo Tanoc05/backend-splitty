@@ -30,3 +30,4 @@ export const createSettlementSchema = z.object({
   currency: z.string().length(3).default('EUR'),
   notes: z.string().max(500).optional().nullable(),
 });
+

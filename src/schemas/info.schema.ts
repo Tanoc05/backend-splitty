@@ -16,3 +16,4 @@ export const updateInfoItemSchema = z.object({
   metadata: z.record(z.string(), z.any()).optional(),
   is_pinned: z.boolean().optional(),
 });
+

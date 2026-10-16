@@ -19,3 +19,4 @@ router.get('/:id', getGroupById);
 router.post('/:id/members', validateBody(addMemberSchema), addMember);
 
 export default router;
+

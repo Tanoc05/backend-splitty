@@ -15,3 +15,4 @@ if (!ENV.SUPABASE_URL || !ENV.SUPABASE_SERVICE_ROLE_KEY) {
     '⚠️ [Config] SUPABASE_URL o SUPABASE_SERVICE_ROLE_KEY non configurati nel file .env. Le chiamate al database potrebbero fallire finché non inserisci le credenziali Supabase.'
   );
 }
+

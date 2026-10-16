@@ -12,3 +12,4 @@ apiRouter.use('/expenses', expenseRoutes);
 apiRouter.use('/info', infoRoutes);
 
 export default apiRouter;
+

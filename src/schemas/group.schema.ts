@@ -10,3 +10,4 @@ export const addMemberSchema = z.object({
   email: z.string().email("Inserisci un'email valida"),
   role: z.enum(['admin', 'member']).default('member'),
 });
+

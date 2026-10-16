@@ -8,3 +8,4 @@ router.get('/me', requireAuth, getMe);
 router.put('/me', requireAuth, updateProfile);
 
 export default router;
+
